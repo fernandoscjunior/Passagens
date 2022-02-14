@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}  
+{% block content %}
+
+<h1>Passagem</h1>
+<p>Sua origem é: {{ form.origem.value }}</p>
+<p>Seu destino é: {{ form.destino.value }}</p>
+<p>Sua ida é: {{ form.ida.value }}</p>
+<p>Sua volta é: {{ form.volta.value }}</p>
+<p>A data de sua pesquisa é: {{ form.pesquisa.value }}</p>
+<p>Sua classe é: {{ form.classe.value }}</p>
+<p>Suas informações são: {{ form.informacoes.value }}</p>
+<p>Sua email é: {{ form.email.value }}</p>
+{% endblock %}
